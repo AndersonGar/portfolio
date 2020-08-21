@@ -1,0 +1,91 @@
+@font-face{
+    font-family: "PublicSans";
+    src: url(../recursos/fuentes/PublicSans-Regular.ttf);
+
+    font-family: "PublicSans Bold";
+    src: url(../recursos/fuentes/PublicSans-Bold.ttf);
+
+
+}
+
+body{
+    font-family: "PublicSans";
+    color: #fff;
+}
+
+h1,h2,h3,h4{
+    font-family: "PublicSans Bold";
+}
+
+header{
+    top: 0px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background: linear-gradient(90deg, #394A6D 50%, #52DE97 50%);
+}
+
+.main{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.main img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.item-main{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+
+.iconmain{
+    display: block;
+    max-width: 128px;
+    max-height: 128px;
+    min-width: 64px;
+    min-height: 64px;
+    background-color: #3C9D9B;
+    border: none;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;;
+}
+
+.iconmain-in{
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 16px;
+    min-height: 16px;
+    margin: 25% 
+}
+
+.about-me{
+    background: #394A6D;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.about-me h2{
+    display: inline-block;
+    position: relative;
+}
+
+.about-me h2::after,h2::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #52DE97;
+    bottom: -10px;
+}
+
+.about-me h2::after{
+    left: 50%;
+}
+.about-me h2::before{
+    right: 50%;
+}
