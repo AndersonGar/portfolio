@@ -73,12 +73,12 @@ section{
     text-align: center;
 }
 
-.about-me h2{
+section h2{
     display: inline-block;
     position: relative;
 }
 
-.about-me h2::after,h2::before{
+section h2::after,h2::before{
     content: "";
     position: absolute;
     width: 50px;
@@ -87,10 +87,10 @@ section{
     bottom: -10px;
 }
 
-.about-me h2::after{
-    left: 50%;
+section h2::after{
+    left: 50%;  
 }
-.about-me h2::before{
+section h2::before{
     right: 50%;
 }
 
@@ -130,4 +130,80 @@ section{
 
 .button_secondary{
     background-color: rgba(0,0,0,0);
+}
+
+.services{
+    background: #435374;
+    text-align: center;
+}
+
+.services .content{
+    display: inline-block;
+    max-width: 75%;
+}
+
+.content p{
+    text-align: left;
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card-services{
+    
+}
+
+.card{
+    
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    margin: 10px 0;
+}
+
+
+.card-background{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img-game{
+    background-image: url(../recursos/imagenes/videojuego.jpg);
+    background-size: cover;
+}
+
+.img-web{
+    background-image: url(../recursos/imagenes/web.jpeg);
+    background-size: cover;
+}
+
+.img-desktop{
+    background-image: url(../recursos/imagenes/desktop.jpg);
+    background-size: cover;
+}
+
+.img-team{
+    background-image: url(../recursos/imagenes/reunion.jpg);
+    background-size: cover;
+}
+
+.card-front{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgba(82, 222, 151, 75%);
+    padding: 10px 0;
+}
+
+.card-front figure{
+    padding: 15px 0;
+    margin: 0;
+}
+
+.card-front p{
+    display: inline-block;
+    text-align: left;
+    padding: 0 15px;
 }
